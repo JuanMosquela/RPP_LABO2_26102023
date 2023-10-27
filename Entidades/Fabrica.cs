@@ -30,7 +30,7 @@ namespace Entidades
         {
             if(fabrica.vehiculos.Count < fabrica.capacidad)
             {
-                fabrica.vehiculos.Add(vehiculo);             
+                fabrica.vehiculos.Add(vehiculo);            
 
             }
 

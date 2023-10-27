@@ -28,6 +28,13 @@ namespace Recuperatorio
             listVehiculos.DataSource = this.fabrica.Vehiculos;
         }
 
+
+        /// <summary>
+        /// Crea y devuelve una instancia de un vehículo basado en la selección de tipo en un ComboBox.
+        /// </summary>
+        /// <returns>Una instancia del vehículo seleccionado.</returns>
+
+
         public Vehiculo CrearVehiculo()
         {
             switch (cmbTipo.SelectedIndex)
