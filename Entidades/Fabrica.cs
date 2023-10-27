@@ -19,7 +19,7 @@ namespace Entidades
 
         }
 
-        public Fabrica(int capacidad)
+        public Fabrica(int capacidad):this()
         {
             this.capacidad = capacidad;
         }
